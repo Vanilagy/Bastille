@@ -1,0 +1,11 @@
+<script src="../src/bastille.js"></script>
+
+<script>
+    Bastille.enable();
+    Bastille.addEventListener('back', () => {
+        console.log("Pressed the back button. Event listener");
+    });
+    Bastille.onback = function() {
+        console.log("Pressed the back button. Event function");
+    };
+</script>
