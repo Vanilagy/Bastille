@@ -3,6 +3,8 @@ Bastille is a small JavaScript library that enables the prevention of the defaul
 
 This library is meant to, without much complication, add back button functionality to web pages that usually would not have it, such as single-page applications. It is not intended to be used to annoy or get in the way of the user, but should instead complement a web experience, based on users' intuition of how the back button should work, for example when aiding in navigation.
 
+It is important to note that, while Bastille is in use, no other parts of JavaScript should mess with the History API in any way. This **will** break this library.
+
 ## Installation
 To install, simply include the file in your HTML:
 ```html
