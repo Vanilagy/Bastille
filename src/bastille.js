@@ -1,3 +1,8 @@
+/*
+    Bastille v1.0.1
+    @Vanilagy
+*/
+
 (function() {
     var Bastille = new EventTarget();
     var preventNextPopstate = false;
